@@ -1,27 +1,27 @@
 <?php
 /**
   *  @author Profe-Alumno
-  *  @version 2.0
+  *  @version 2.1
 */
 
   /**
-    * Función multiplica de dos números
+    * Función suma de dos números
     * @param int $num1
     * @param int $num2
     * @return float
-    * @internal se ha añadido esta anotacion para desarrolladores
+    * @internal cambiamos a suma
   */
  
 
-  function multiplica ($num1, $num2) {
-      $resultadosuma = $num1 * $num2;
+  function suma($num1, $num2) {
+      $resultadosuma = $num1 + $num2;
       return $resultadosuma;
 
   }
 
 
-$multi = multiplica (4,2);
-echo "El resultado de cuatro por dos es  ";
+$multi = suma(4,2);
+echo "El resultado de cuatro mas dos es  ";
 echo $multi;
 
   /**
