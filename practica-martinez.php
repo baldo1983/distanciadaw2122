@@ -20,9 +20,9 @@
   }
 
 
-$multi = suma(4,2);
+$suma = suma(4,2);
 echo "El resultado de cuatro mas dos es  ";
-echo $multi;
+echo $suma;
 
   /**
     * Función resta de dos números
